@@ -3,7 +3,22 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Page from './Page'
+
 import './index.css'
+
+const styles = theme => ({
+  root: {
+    textAlign: 'center',
+    paddingTop: 200,
+    background: 'black',
+  },
+  button: {
+    margin: theme.spacing.unit,
+  },
+  appFrame: {},
+  content: {},
+});
 
 const Header = () => (
   <div
@@ -37,23 +52,13 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Kashyap' Blog"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+    {children()}
   </div>
 )
 
@@ -61,4 +66,4 @@ TemplateWrapper.propTypes = {
   children: PropTypes.func,
 }
 
-export default TemplateWrapper
+export default Page(TemplateWrapper, styles);

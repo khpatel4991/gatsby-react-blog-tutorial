@@ -1,14 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import List, { ListItem, ListItemText } from 'material-ui/List'
+import { withStyles } from 'material-ui/styles'
 
-const IndexPage = ({ data }) => {
+const styles = theme => ({
+  root: {
+    background: 'black',
+    color: 'white',
+  }
+})
+
+const IndexPage = ({ classes, theme, data }) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div>
+    <div className={classes.root}>
       {posts.map(({ node: post }) => {
         const { frontmatter } = post
         return (
-          <div>
+          <div key={post.id}>
             <h2>
               <Link to={frontmatter.path}>
                 {frontmatter.title}
@@ -51,4 +60,4 @@ export const query = graphql`
   }
 `
 
-export default IndexPage
+export default withStyles(styles, { withTheme: true })(IndexPage);
