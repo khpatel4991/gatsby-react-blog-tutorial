@@ -18,10 +18,9 @@ const styles = theme => ({
     height: '100%',
   },
   content: {
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: '#000',
     width: '100%',
     height: 'calc(100% - 56px)',
-    background: 'black',
     marginTop: 56,
     marginLeft: 120,
     marginRight: 120,

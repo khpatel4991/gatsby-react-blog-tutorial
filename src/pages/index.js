@@ -2,12 +2,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 import List, { ListItem, ListItemText } from 'material-ui/List'
 import { withStyles } from 'material-ui/styles'
+import Typography from 'material-ui/Typography';
+import Chip from 'material-ui/Chip'
 
 const styles = theme => ({
   root: {
     background: 'black',
     color: 'white',
-  }
+  },
+  item: {
+    marginBottom: 20,
+  },
+  row: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  chip: {
+    margin: 4,
+  },
 })
 
 const IndexPage = ({ classes, theme, data }) => {
@@ -17,22 +29,28 @@ const IndexPage = ({ classes, theme, data }) => {
       {posts.map(({ node: post }) => {
         const { frontmatter } = post
         return (
-          <div key={post.id}>
-            <h2>
+          <div className={classes.item} key={post.id}>
+            <Typography type="headline">
               <Link to={frontmatter.path}>
                 {frontmatter.title}
               </Link>
-            </h2>
-            <p>{frontmatter.date}</p>
-            <p>{frontmatter.excerpt}</p>
-            <p>{frontmatter.tags.map(tag => (
-              <span>
-                <Link to={`/tags/${tag}`}>
-                  <code>{tag}</code>
-                </Link>
-                &nbsp;
-              </span>
-            ))}</p>
+            </Typography>
+            <Typography gutterBottom>
+              {frontmatter.date}
+            </Typography>
+            <Typography>
+              {frontmatter.excerpt}
+            </Typography>
+            <div className={classes.row}>
+              {frontmatter.tags.map(tag => (
+                <Typography type="caption">
+                  <Link href={`/tags/${tag}`}>
+                    {tag}
+                  </Link>
+                  &nbsp;
+                </Typography>
+              ))}
+            </div>
           </div>
         )
       })}

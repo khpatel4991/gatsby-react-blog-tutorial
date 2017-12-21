@@ -7,15 +7,16 @@ import getContext from '../styles/getContext';
 const styles = theme => ({
   '@global': {
     html: {
-      background: theme.palette.background.default,
+      margin: 0,
+      padding: 0,
+      backgroundColor: '#000',
       WebkitFontSmoothing: 'antialiased',
       MozOsxFontSmoothing: 'grayscale',
     },
     body: {
       margin: 0,
-      width: '100vw',
-      height: '100vh',
-      background: 'black',
+      padding: 0,
+      backgroundColor: '#000',
     },
   },
 });

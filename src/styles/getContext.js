@@ -6,6 +6,8 @@ import { createMuiTheme } from 'material-ui/styles';
 import green from 'material-ui/colors/green';
 import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
 
+import getTypography from './getTypography';
+
 const black = {
   50: '#e0e0e0',
   100: '#b3b3b3',
@@ -29,63 +31,7 @@ const theme = createMuiTheme({
     primary: black,
     secondary: green,
   },
-  typography: {
-    fontFamily: "'Roboto Mono', monospace",
-    fontSize: 14,
-    fontWeightLight: 300,
-    fontWeightRegular: 400,
-    fontWeightMedium: 500,
-    display1: {
-      fontSize: '2.125rem',
-      fontWeight: 400,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '1.20588em',
-      marginLeft: '-.04em',
-      color: '#034694',
-    },
-    headline: {
-      fontSize: '.5rem',
-      fontWeight: 400,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '.35417em',
-      color: 'rgba(255, 255, 255, 0.87)',
-    },
-    title: {
-      fontSize: '.3125rem',
-      fontWeight: 500,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '.16667em',
-      color: 'rgba(255, 255, 255, 0.87)',
-    },
-    subheading: {
-      fontSize: 'rem',
-      fontWeight: 400,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '.5em',
-      color: 'rgba(255, 255, 255, 0.87)',
-    },
-    body2: {
-      fontSize: '.89rem',
-      fontWeight: 500,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '1.49em',
-      color: 'rgba(255, 255, 255, 0.87)',
-    },
-    body1: {
-      fontSize: '.875rem',
-      fontWeight: 400,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '.46429em',
-      color: 'rgba(255, 255, 255, 0.87)',
-    },
-    caption: {
-      fontSize: '.75rem',
-      fontWeight: 400,
-      fontFamily: "'Roboto Mono', monospace",
-      lineHeight: '.375em',
-      color: 'rgba(255, 255, 255, 0.54)',
-    },
-  },
+  typography: getTypography(),
 });
 
 // Configure JSS
