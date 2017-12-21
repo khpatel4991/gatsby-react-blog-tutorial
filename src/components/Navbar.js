@@ -1,11 +1,11 @@
 import React, { PureComponent } from 'react';
-//import Router from 'next/router';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Hidden from 'material-ui/Hidden';
 import Button from 'material-ui/Button';
 import { withStyles } from 'material-ui/styles';
+import Link, { navigateTo } from 'gatsby-link';
 
 const styles = {
   fullAppBar: {
@@ -18,15 +18,14 @@ const styles = {
 };
 
 const navList = [
-  { index: 0, name: 'Home', path: '/' },
-  { index: 1, name: 'Blog', path: '/blog' },
-  { index: 2, name: 'About Me', path: '/aboutme' },
+  { index: 0, name: 'Home', path: 'https://khpatel4991.com' },
+  { index: 1, name: 'Blog', path: '/' },
+  { index: 2, name: 'About Me', path: 'https://khpatel4991.com/aboutme' },
 ];
 
 class Navbar extends PureComponent {
   static route(pathname) {
-    //Router.push(pathname)
-    console.log(pathname)
+    navigateTo(pathname);
   }
   render() {
     // eslint-disable-next-line
@@ -40,7 +39,7 @@ class Navbar extends PureComponent {
               <Button
                 key={item.index}
                 color="contrast"
-                onClick={() => Navbar.route(item.path)}
+                href={item.path}
               >
                 {item.name}
               </Button>

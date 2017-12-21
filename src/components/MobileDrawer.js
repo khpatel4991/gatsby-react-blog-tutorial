@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-// import Router from 'next/router';
 import Hidden from 'material-ui/Hidden';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
@@ -8,6 +7,8 @@ import MdMenu from 'react-icons/lib/md/menu';
 import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemText } from 'material-ui/List';
 import { withStyles } from 'material-ui/styles';
+
+import { navigateTo } from "gatsby-link"
 
 const drawerWidth = 240;
 
@@ -35,15 +36,16 @@ const styles = theme => ({
 });
 
 const navList = [
-  { index: 0, name: 'Home', path: '/' },
-  { index: 1, name: 'Blog', path: '/blog' },
-  { index: 2, name: 'About Me', path: '/aboutme' },
+  { index: 0, name: 'Home', path: 'https://khpatel4991.com' },
+  { index: 1, name: 'Blog', path: '/' },
+  { index: 2, name: 'About Me', path: 'https://khpatel4991.com/aboutme' },
 ];
 
 class MobileDrawer extends PureComponent {
   static route(pathname) {
     //Router.push(pathname);
     console.log(pathname);
+    navigateTo(pathname);
   }
 
   constructor(props, ctx) {
