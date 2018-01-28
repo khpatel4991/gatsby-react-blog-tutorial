@@ -42,9 +42,9 @@ const IndexPage = ({ classes, theme, data }) => {
               {frontmatter.excerpt}
             </Typography>
             <div className={classes.row}>
-              {frontmatter.tags.map(tag => (
-                <Typography type="caption">
-                  <Link href={`/tags/${tag}`}>
+              {frontmatter.tags.map((tag, i) => (
+                <Typography type="caption" key={`${post.id}-${tag}`}>
+                  <Link to={`/tags/${tag}`}>
                     {tag}
                   </Link>
                   &nbsp;

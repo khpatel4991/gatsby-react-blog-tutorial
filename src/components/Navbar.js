@@ -34,7 +34,9 @@ class Navbar extends PureComponent {
       <Hidden mdDown implementation="css">
         <AppBar className={classes.fullAppBar}>
           <Toolbar>
-            <Typography className={classes.flex} />
+          <Typography className={classes.flex}>
+            {''}
+          </Typography>
             {navList.map(item => (
               <Button
                 key={item.index}
