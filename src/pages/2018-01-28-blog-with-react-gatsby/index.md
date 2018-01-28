@@ -456,7 +456,7 @@ module.exports = {
 }
 
 ```
-Finally to deploy,
+Finally to deploy, run the following command. My blog is located at [https://khpatel4991.github.io/gatsby-react-blog-tutorial/](https://khpatel4991.github.io/gatsby-react-blog-tutorial/).
 ```
 yarn run deploy
 ```
