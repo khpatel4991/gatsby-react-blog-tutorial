@@ -1,114 +1,98 @@
 {
   "assetsByChunkName": {
     "path---tags-flux": [
-      "path---tags-flux-d5198ebee79f29a09cdf.js",
-      "path---tags-flux-d5198ebee79f29a09cdf.js.map"
-    ],
-    "path---tags-data": [
-      "path---tags-data-11148874b0198ac02c8f.js",
-      "path---tags-data-11148874b0198ac02c8f.js.map"
-    ],
-    "path---tags-blog": [
-      "path---tags-blog-682f3ad3cc2e08b27399.js",
-      "path---tags-blog-682f3ad3cc2e08b27399.js.map"
+      "path---tags-flux-ff253b3c0fb879dedd7e.js",
+      "path---tags-flux-ff253b3c0fb879dedd7e.js.map"
     ],
     "path---react-framework": [
-      "path---react-framework-f7feb0721093ece79c17.js",
-      "path---react-framework-f7feb0721093ece79c17.js.map"
+      "path---react-framework-b8629bddc93db8c4fea4.js",
+      "path---react-framework-b8629bddc93db8c4fea4.js.map"
+    ],
+    "path---tags-static-site-generator": [
+      "path---tags-static-site-generator-c29d7e04a2529d17e7e7.js",
+      "path---tags-static-site-generator-c29d7e04a2529d17e7e7.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b435ae0ba8e863bc1cec.js",
-      "component---src-pages-index-js-b435ae0ba8e863bc1cec.js.map"
-    ],
-    "path---tags-markdown": [
-      "path---tags-markdown-461f1190569c9cd79a9e.js",
-      "path---tags-markdown-461f1190569c9cd79a9e.js.map"
-    ],
-    "path---tags-graphql": [
-      "path---tags-graphql-58f5864ff0f3bee3c528.js",
-      "path---tags-graphql-58f5864ff0f3bee3c528.js.map"
+      "component---src-pages-index-js-5c92f8f059b696d65bce.js",
+      "component---src-pages-index-js-5c92f8f059b696d65bce.js.map"
     ],
     "component---src-templates-tags-js": [
       "component---src-templates-tags-js-242a932ef7ce9ddac2ce.js",
       "component---src-templates-tags-js-242a932ef7ce9ddac2ce.js.map"
     ],
     "path---tags": [
-      "path---tags-8e8766b9c4659103e56e.js",
-      "path---tags-8e8766b9c4659103e56e.js.map"
+      "path---tags-f4493ba441b45373fcb9.js",
+      "path---tags-f4493ba441b45373fcb9.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---tags-react": [
-      "path---tags-react-e0b7a98ea8ff40e43672.js",
-      "path---tags-react-e0b7a98ea8ff40e43672.js.map"
+    "path---tags-javascript": [
+      "path---tags-javascript-f559dadf3fb1caa7969a.js",
+      "path---tags-javascript-f559dadf3fb1caa7969a.js.map"
     ],
-    "path---graphql-is-cool": [
-      "path---graphql-is-cool-97af51a6701453d63162.js",
-      "path---graphql-is-cool-97af51a6701453d63162.js.map"
+    "path---tags-react": [
+      "path---tags-react-cb3fab1a6a79d480b67f.js",
+      "path---tags-react-cb3fab1a6a79d480b67f.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-829a24292a6088ec0fa8.js",
-      "component---src-templates-blog-post-js-829a24292a6088ec0fa8.js.map"
+      "component---src-templates-blog-post-js-a73172d65feb35087db5.js",
+      "component---src-templates-blog-post-js-a73172d65feb35087db5.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b447bcc51ec8d115ea15.js",
-      "component---src-layouts-index-js-b447bcc51ec8d115ea15.js.map"
+      "component---src-layouts-index-js-69a9245af494129960e4.js",
+      "component---src-layouts-index-js-69a9245af494129960e4.js.map"
     ],
     "path---tags-gatsby": [
-      "path---tags-gatsby-6e106e837e9cce5f2ca1.js",
-      "path---tags-gatsby-6e106e837e9cce5f2ca1.js.map"
+      "path---tags-gatsby-15f5f89f2c4a762111b1.js",
+      "path---tags-gatsby-15f5f89f2c4a762111b1.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-97302dec571b040fd7f6.js",
-      "path---index-97302dec571b040fd7f6.js.map"
-    ],
-    "path---tags-rest": [
-      "path---tags-rest-c9941e8d1b146818b22f.js",
-      "path---tags-rest-c9941e8d1b146818b22f.js.map"
-    ],
-    "path---blog-gatsby-react": [
-      "path---blog-gatsby-react-0ad66dc69ca53fecde51.js",
-      "path---blog-gatsby-react-0ad66dc69ca53fecde51.js.map"
+      "path---index-aea098a911bcce3dbe5a.js",
+      "path---index-aea098a911bcce3dbe5a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-f0c47e73f93deeaea2ad.js",
-      "commons-f0c47e73f93deeaea2ad.js.map"
+      "commons-c7bfeb22565c169232e8.js",
+      "commons-c7bfeb22565c169232e8.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-javasccript": [
-      "path---tags-javasccript-6f1c3266504fc033637b.js",
-      "path---tags-javasccript-6f1c3266504fc033637b.js.map"
+      "path---tags-javasccript-e721285165df73c12cf4.js",
+      "path---tags-javasccript-e721285165df73c12cf4.js.map"
     ],
     "component---src-templates-all-tags-js": [
       "component---src-templates-all-tags-js-75fd51bb5f5669aeef7e.js",
       "component---src-templates-all-tags-js-75fd51bb5f5669aeef7e.js.map"
     ],
     "path---tags-functional": [
-      "path---tags-functional-6c46a4d7af55cdcba4cd.js",
-      "path---tags-functional-6c46a4d7af55cdcba4cd.js.map"
+      "path---tags-functional-a57d95552575f4d0c646.js",
+      "path---tags-functional-a57d95552575f4d0c646.js.map"
     ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-5e9533123c16c9feb4e6.js",
+      "app-bb8b8861bc70d079adb9.js",
       "build-js-styles.css",
-      "app-5e9533123c16c9feb4e6.js.map",
+      "app-bb8b8861bc70d079adb9.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---blog-with-react-gatsby": [
+      "path---blog-with-react-gatsby-22f627c4b22828bbc5d0.js",
+      "path---blog-with-react-gatsby-22f627c4b22828bbc5d0.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
