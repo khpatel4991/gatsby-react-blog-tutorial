@@ -407,6 +407,7 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
+  border-style: solid;
 }
 table {
   margin-left: 0;
@@ -600,7 +601,6 @@ code {
 pre code {
   background: none;
   line-height: 1.42;
-  border-style: solid;
 }
 code:before,
 code:after,
