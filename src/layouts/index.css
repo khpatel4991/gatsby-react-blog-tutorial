@@ -600,6 +600,7 @@ code {
 pre code {
   background: none;
   line-height: 1.42;
+  border-style: solid;
 }
 code:before,
 code:after,
